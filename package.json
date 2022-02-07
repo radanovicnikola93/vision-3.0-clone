@@ -4,7 +4,7 @@
   "description": "A dribbble.com inspirational website Vision 3.0 clone",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "sass styles/sass/main.scss styles/css/style.css -w"
   },
   "repository": {
     "type": "git",
