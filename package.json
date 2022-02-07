@@ -1,0 +1,30 @@
+{
+  "name": "vision-3.0-clone",
+  "version": "1.0.0",
+  "description": "A dribbble.com inspirational website Vision 3.0 clone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/radanovicnikola93/vision-3.0-clone.git"
+  },
+  "keywords": [
+    "dribbble",
+    "clone",
+    "js",
+    "html",
+    "css",
+    "sass"
+  ],
+  "author": "Nikola Radanovic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/radanovicnikola93/vision-3.0-clone/issues"
+  },
+  "homepage": "https://github.com/radanovicnikola93/vision-3.0-clone#readme",
+  "dependencies": {
+    "sass": "^1.49.7"
+  }
+}
