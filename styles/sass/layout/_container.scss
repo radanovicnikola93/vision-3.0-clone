@@ -79,7 +79,7 @@
         //main
         .main-section {
             padding: 2.5rem;
-            height: 60vh;
+            min-height: 60vh;
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             grid-gap: 1em;
