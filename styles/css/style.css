@@ -3,6 +3,7 @@ body {
   height: 100vh;
   background-color: #000000;
   overflow: hidden;
+  font-family: "Arial", sans-serif;
 }
 
 .wrapper {
@@ -17,6 +18,41 @@ body {
   height: 90vh;
   background-color: #EFEFED;
   color: #000000;
+}
+.wrapper .container .navbar {
+  height: 20vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrapper .container .navbar .navbar-links ul li {
+  list-style-type: none;
+}
+.wrapper .container .navbar .navbar-links ul li a {
+  color: #000000;
+  text-decoration: none;
+}
+.wrapper .container .navbar .navbar-links ul li:nth-of-type(1) {
+  font-weight: bold;
+  margin-bottom: 0.7rem;
+}
+.wrapper .container .navbar .navbar-main-title h1 {
+  font-size: 7rem;
+  text-transform: uppercase;
+  letter-spacing: -0.5rem;
+}
+.wrapper .container .navbar .navbar-main-title h1 span {
+  letter-spacing: -1.2rem;
+}
+.wrapper .container .navbar .navbar-button button {
+  padding: 2rem;
+  margin-right: 2.5rem;
+  border-radius: 50%;
+}
+.wrapper .container .navbar .navbar-button button a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */
