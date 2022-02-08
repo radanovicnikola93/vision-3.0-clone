@@ -46,12 +46,26 @@ body {
   letter-spacing: -0.5rem;
 }
 .wrapper .container .navbar .navbar-main-title h1 span {
-  letter-spacing: -1.2rem;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fff;
+  letter-spacing: -1rem;
+}
+.wrapper .container .navbar .navbar-main-title h1 span .letter-o {
+  position: relative;
+}
+.wrapper .container .navbar .navbar-main-title h1 span .letter-o::after {
+  content: "I";
+  position: absolute;
+  left: 35px;
+  top: -10px;
+  transform: rotate(90deg);
 }
 .wrapper .container .navbar .navbar-button button {
-  padding: 2rem;
+  width: 120px;
+  height: 80px;
   margin-right: 2.5rem;
-  border-radius: 50%;
+  border-radius: 45%;
+  border: 1px solid #000;
 }
 .wrapper .container .navbar .navbar-button button a {
   text-decoration: none;
