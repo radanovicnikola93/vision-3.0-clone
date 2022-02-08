@@ -54,5 +54,14 @@ body {
   color: #000000;
   font-weight: bold;
 }
+.wrapper .container .main-section {
+  padding: 3rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1em;
+}
+.wrapper .container .main-section img {
+  width: 200px;
+}
 
 /*# sourceMappingURL=style.css.map */
