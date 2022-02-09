@@ -71,7 +71,6 @@ body {
 .navbar .navbar-button button {
   width: 120px;
   height: 80px;
-  margin-right: 2.5rem;
   border-radius: 45%;
   border: 1px solid #000;
 }
@@ -79,6 +78,13 @@ body {
   text-decoration: none;
   color: #000;
   font-weight: bold;
+}
+.navbar .navbar-button button:hover {
+  background-color: #000;
+  border: 1px solid #fff;
+}
+.navbar .navbar-button button:hover a {
+  color: #fff;
 }
 
 .main-section {
