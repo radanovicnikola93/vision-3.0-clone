@@ -1,0 +1,39 @@
+.left-grid {
+    background-color: lightblue;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: end;
+        .left-grid-paragraph {
+            width: 40%;
+            p {
+                text-align: right;
+            }
+        }
+
+        .left-grid-image {
+            position: relative;
+            width: 100%;
+
+            img {
+                width: 100%;
+                max-height: 90%;
+            }
+
+            &::after {
+                content: "CIO RESIDENTIAL \A AREA PROJECT";
+                white-space: pre;
+                position: absolute;
+                top: 60px;
+                left: -20px;
+                transform: rotate(-90deg);
+                font-weight: bold;
+                font-size: 1.3rem;
+            }
+        }
+    }
+
+    
+
+    
